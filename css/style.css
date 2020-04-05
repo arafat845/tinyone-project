@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap');
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+header{
+	background-color: #fcdb00;
+}
+footer{
+	background-color: black;
+	text-align: center;
+	height: 750px;
+}
+h1{
+    font-size: 32px;
+    font-weight: 700;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+h2{
+	padding-left: 50px;
+	font-size: 30px;
+}
+h6{
+    font-size: 20px;
+}
+p{
+	padding-left: 50px;
+	font-size: 16px;
+}
+.nav-link{
+	color: black;
+	text-decoration: none;
+	font-weight: 700;
+	position: relative;
+	padding: 0 !important;
+}
+.nav-link::after{
+	content:"";
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 2px;
+	width: 100%;
+	background-color: black;
+	z-index: 1;
+	opacity: 0;
+	transition: all 0.4s linear;
+}
+.nav-link:hover{
+	text-decoration: none;
+	color: black;
+}
+.nav-link:hover::after{
+	opacity: 1;
+}
+.slider-content{
+	margin-top: 115px !important;
+	margin-left: 0 !important;
+}
+.slider-content p{
+	padding: 0;
+}
+.slider-content span{
+	display: block;
+	height: 50px;
+	width: 65px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 35px;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.slider-img{
+    margin-left: 90px !important;
+}
+.feature-section{
+	height: 750px;
+}
+.Feature-heading{
+    padding: 0 115px 17px;
+}
+
+.feature{
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition-duration: 0.4s;
+    margin-bottom: 30px;
+}
+.feature:hover{
+	box-shadow: 0 0 10px #dddddd85;
+}
+.feature span{
+	display: block;
+	height: 50px;
+	width: 50px;
+	padding-top: 50px;
+	font-size: 30px;
+}
+.contact-heading{
+	padding: 0 115px 50px;
+}
+.contact-heading h1{
+	color: #fcdb00;
+}
+.form-control{
+    padding-right: 450px;
+}
+.btn{
+	background-color: #fcdb00;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.social{
+	margin-top: 60px;
+}
+.social ul{
+    margin-top: 10px;
+}
+.social li a span{
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 25px;
+    color: black;
+    line-height: 50px;
+    transition-duration: 0.4s;
+    background-color: #FCDB04 !important;
+}
+.social li a span:hover{
+	background-color: #d2b80d !important;
+}
+.contact{
+	text-align: left;
+	margin-top: 133px;
+}
+.contact ul{
+	margin: 0;
+}
+.contact ul li{
+    list-style: none;
+    color: #ddd;
+}
+.contact ul li a{
+    color: #ddd;
+}
